@@ -1,4 +1,3 @@
-import axios from 'axios'
 <template>
   <div id="app" :class="typeof weather.main != 'undefined' && weather.main.temp > 16 ? 'warm' : ''">
     <main>
@@ -26,11 +25,12 @@ import axios from 'axios'
 </template>
 
 <script>
+import { apiKey } from './environment';
 export default {
   name: 'App',
   data () {
     return {
-      apiKey: "e67b0ca2347b5b8bfac2b79e5eac4016",
+      apiKey,
       baseURL: "https://api.openweathermap.org/data/2.5/",
       query: "",
       weather: {}
