@@ -9,16 +9,6 @@ npm install
 ```
 npm run serve
 ```
+### Project Description
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+A simple weather app to get introduce to Vue
