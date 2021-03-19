@@ -1,5 +1,10 @@
 # How'sTheVue
 
+
+# Project Description
+
+A simple weather app to get introduce to Vue
+
 ## Project setup
 ```
 npm install
@@ -9,6 +14,3 @@ npm install
 ```
 npm run serve
 ```
-### Project Description
-
-A simple weather app to get introduce to Vue
