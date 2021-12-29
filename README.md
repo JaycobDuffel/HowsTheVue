@@ -1,6 +1,6 @@
 # How'sTheVue
 
-A simple weather app to get introduce to Vue
+A simple weather app to get introduced to Vue
 
 ## Project setup
 ```
